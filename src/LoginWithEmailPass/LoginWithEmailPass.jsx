@@ -70,7 +70,7 @@ const [error, setError] = useState('')
                 <p className="text-red-600 font-bold">{error}</p>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Sign In</button>
+                <button className="btn btn-primary">Login In</button>
               </div>
             </form>
           </div>

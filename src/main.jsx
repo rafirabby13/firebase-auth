@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -9,6 +10,8 @@ import {
 import Main from './components/Layouts/Main.jsx';
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
+import LoginWithEmailPass from './LoginWithEmailPass/LoginWithEmailPass.jsx';
+import SignInWIthEMAIlPAss from './components/signInWithEmailPass/SignInWIthEMAIlPAss.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: '/login',
         element: <Login/>
+      },
+      {
+        path: '/SignInEmailPass',
+        element: <SignInWIthEMAIlPAss/>
+      },
+      {
+        path: '/loginEmailPass',
+        element: <LoginWithEmailPass/>
       }
     ]
   },
